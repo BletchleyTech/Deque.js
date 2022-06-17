@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Double Ended Queue data structure",
 	"main": "Deque.js",
+	"type": "module",
 	"scripts": {
 		"compile": "tsc -p src --outDir .",
 		"lintTs": "npx eslint src/Deque.ts",
