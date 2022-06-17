@@ -1,32 +1,41 @@
 {
-  "name": "@bletchley-tech/deque",
-  "version": "1.0.0",
-  "description": "Double Ended Queue data structure",
-  "main": "Deque.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BletchleyTech/Deque.git"
-  },
-  "keywords": [
-    "deque",
-    "queue",
-    "double",
-    "ended",
-    "queue",
-    "data",
-    "structures",
-    "data",
-    "structure",
-    "double",
-    "ended"
-  ],
-  "author": "Bletchley Technological Solutions Inc.",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BletchleyTech/Deque/issues"
-  },
-  "homepage": "https://github.com/BletchleyTech/Deque#readme"
+	"name": "@bletchley-tech/deque",
+	"version": "1.0.0",
+	"description": "Double Ended Queue data structure",
+	"main": "Deque.js",
+	"scripts": {
+		"compile": "tsc -p src --outDir .",
+		"lintTs": "npx eslint src/Deque.ts",
+		"lintJs": "npx eslint Deque.js",
+		"lintAll": "npx eslint .",
+		"publish": "npm publish --access=public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BletchleyTech/Deque.git"
+	},
+	"keywords": [
+		"deque",
+		"queue",
+		"double",
+		"ended",
+		"queue",
+		"data",
+		"structures",
+		"data",
+		"structure",
+		"double",
+		"ended"
+	],
+	"author": "Bletchley Technological Solutions Inc.",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BletchleyTech/Deque/issues"
+	},
+	"homepage": "https://github.com/BletchleyTech/Deque#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.28.0",
+		"@typescript-eslint/parser": "^5.28.0",
+		"eslint": "^8.18.0"
+	}
 }
